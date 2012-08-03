@@ -41,12 +41,48 @@
 	    android:layout_below="@id/labelPercent"/>
 	
 	<Button
-	    android:id="@+id/seek10"
+	    android:id="@+id/button10"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:text="@string/button10"
 	    android:textSize="30dp"
 	    android:layout_below="@id/tipPercent"/>
+	
+	<Button
+	    android:id="@+id/button20"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button20"
+	    android:textSize="30dp"
+	    android:layout_below="@id/tipPercent"
+	    android:layout_toRightOf="@id/button10"/>
+	
+	<Button
+	    android:id="@+id/button30"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button30"
+	    android:textSize="30dp"
+	    android:layout_below="@id/tipPercent"
+	    android:layout_toRightOf="@id/button20"/>
+	
+	<Button
+	    android:id="@+id/button40"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button40"
+	    android:textSize="30dp"
+	    android:layout_below="@id/tipPercent"
+	    android:layout_toRightOf="@id/button30"/>
+	
+	<Button
+	    android:id="@+id/button50"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button50"
+	    android:textSize="30dp"
+	    android:layout_below="@id/tipPercent"
+	    android:layout_toRightOf="@id/button40"/>
 	
 	<TextView
 	    android:id="@+id/tip"
@@ -54,7 +90,7 @@
 	    android:layout_height="wrap_content"
 	    android:text="@string/tip"
 	    android:textSize="50dp"
-	    android:layout_below="@id/seek10"/>
+	    android:layout_below="@id/button10"/>
 	
 	<TextView
 	    android:id="@+id/tipAmt"
@@ -63,7 +99,7 @@
 	    android:text="@string/initial_tipAmt"
 	    android:layout_toRightOf="@id/tip"
 	    android:textSize="50dp"
-	    android:layout_below="@id/seek10"
+	    android:layout_below="@id/button10"
 	    android:layout_centerHorizontal="true"/>
 	
 	<TextView 

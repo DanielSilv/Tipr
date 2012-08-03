@@ -22,14 +22,18 @@ public final class R {
     public static final class id {
         public static final int bill=0x7f080000;
         public static final int billBox=0x7f080001;
+        public static final int button10=0x7f080004;
+        public static final int button20=0x7f080005;
+        public static final int button30=0x7f080006;
+        public static final int button40=0x7f080007;
+        public static final int button50=0x7f080008;
         public static final int labelPercent=0x7f080002;
-        public static final int menu_settings=0x7f080009;
-        public static final int seek10=0x7f080004;
-        public static final int tip=0x7f080005;
-        public static final int tipAmt=0x7f080006;
+        public static final int menu_settings=0x7f08000d;
+        public static final int tip=0x7f080009;
+        public static final int tipAmt=0x7f08000a;
         public static final int tipPercent=0x7f080003;
-        public static final int total=0x7f080007;
-        public static final int totalAmt=0x7f080008;
+        public static final int total=0x7f08000b;
+        public static final int totalAmt=0x7f08000c;
     }
     public static final class layout {
         public static final int activity_tipr=0x7f030000;

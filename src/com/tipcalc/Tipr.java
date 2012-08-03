@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
@@ -19,9 +21,40 @@ public class Tipr extends Activity implements OnSeekBarChangeListener {
         setContentView(R.layout.activity_tipr);
  
         // Must be a Listener to handle an Event
-        SeekBar tipPercentSB = (SeekBar) findViewById(R.id.tipPercent);
+        final SeekBar tipPercentSB = (SeekBar) findViewById(R.id.tipPercent);
         tipPercentSB.setOnSeekBarChangeListener(this);
         
+        // Creates a button to send the seek bar to the tenth interval
+        final Button button10 = (Button) findViewById(R.id.button10);
+        button10.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				tipPercentSB.setProgress(10);
+			}
+		});
+        final Button button20 = (Button) findViewById(R.id.button20);
+        button20.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				tipPercentSB.setProgress(20);
+			}
+		});
+        final Button button30 = (Button) findViewById(R.id.button30);
+        button30.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				tipPercentSB.setProgress(30);
+			}
+		});
+        final Button button40 = (Button) findViewById(R.id.button40);
+        button40.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				tipPercentSB.setProgress(40);
+			}
+		});
+        final Button button50 = (Button) findViewById(R.id.button50);
+        button50.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				tipPercentSB.setProgress(50);
+			}
+		});
     }
 
     @Override
