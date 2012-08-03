@@ -33,7 +33,7 @@
 	    android:layout_centerHorizontal="true"/>
 	<SeekBar
 	    android:id="@+id/tipPercent"
-	    android:progress="10%"
+	    android:progress="10"
 	    android:max="50"
 	    android:layout_width="fill_parent"
 	    android:layout_height="35dp"

@@ -8,6 +8,6 @@
     <string name="bill">Bill:</string>
     <string name="tip_amt">Tip Amount:</string>
     <string name="bill_hint">Enter Amount</string>
-    <string name="initial_tip">10</string>
+    <string name="initial_tip">10%</string>
     
 </resources>
