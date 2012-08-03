@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Tipr</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_tipr">Tipr</string>
+    <string name="tip">Tip:</string>
+    <string name="bill">Bill:</string>
+    <string name="tip_amt">Tip Amount:</string>
+
+</resources>
