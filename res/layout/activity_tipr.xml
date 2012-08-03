@@ -26,7 +26,6 @@
         android:id="@+id/seekBar1"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/textView1"
-        android:layout_alignParentLeft="true"/>
+        android:layout_below="@id/textView1"/>
 
 </RelativeLayout>
