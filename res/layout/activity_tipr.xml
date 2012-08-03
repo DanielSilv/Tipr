@@ -24,9 +24,19 @@
 	    android:inputType="numberDecimal"/>
 	
 	<TextView
-	    android:id="@+id/tipPercent"
+	    android:id="@+id/labelPercent"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:text="@string/initial_tip"
-		
+	    android:layout_below="@id/bill"
+	    android:textSize="50dp"
+	    android:layout_centerHorizontal="true"/>
+	<SeekBar
+	    android:id="@+id/tipPercent"
+	    android:progress="10%"
+	    android:max="50"
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dp"
+	    android:layout_below="@id/labelPercent"/>
+	    
 </RelativeLayout>

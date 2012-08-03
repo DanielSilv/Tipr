@@ -22,7 +22,9 @@ public final class R {
     public static final class id {
         public static final int bill=0x7f080000;
         public static final int billBox=0x7f080001;
-        public static final int menu_settings=0x7f080002;
+        public static final int labelPercent=0x7f080002;
+        public static final int menu_settings=0x7f080004;
+        public static final int tipPercent=0x7f080003;
     }
     public static final class layout {
         public static final int activity_tipr=0x7f030000;
