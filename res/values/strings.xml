@@ -6,8 +6,16 @@
     <string name="title_activity_tipr">Tipr</string>
     <string name="tip">Tip:</string>
     <string name="bill">Bill:</string>
-    <string name="tip_amt">Tip Amount:</string>
+    <string name="tip_amt">Tip:</string>
     <string name="bill_hint">Enter Amount</string>
     <string name="initial_tip">10%</string>
-    
+    <string name="initial_tipAmt">$0</string> 
+    <string name="total">Total:</string>
+    <string name="totalAmt">$0</string>    
+    <string name="button10">10</string>           
+    <string name="button20">20</string>
+    <string name="button30">30</string>
+    <string name="button40">40</string>
+    <string name="button50">50</string>
+
 </resources>

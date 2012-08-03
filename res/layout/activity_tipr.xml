@@ -31,6 +31,7 @@
 	    android:layout_below="@id/bill"
 	    android:textSize="50dp"
 	    android:layout_centerHorizontal="true"/>
+	
 	<SeekBar
 	    android:id="@+id/tipPercent"
 	    android:progress="10"
@@ -38,5 +39,48 @@
 	    android:layout_width="fill_parent"
 	    android:layout_height="35dp"
 	    android:layout_below="@id/labelPercent"/>
-	    
+	
+	<Button
+	    android:id="@+id/seek10"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button10"
+	    android:textSize="30dp"
+	    android:layout_below="@id/tipPercent"/>
+	
+	<TextView
+	    android:id="@+id/tip"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/tip"
+	    android:textSize="50dp"
+	    android:layout_below="@id/seek10"/>
+	
+	<TextView
+	    android:id="@+id/tipAmt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/initial_tipAmt"
+	    android:layout_toRightOf="@id/tip"
+	    android:textSize="50dp"
+	    android:layout_below="@id/seek10"
+	    android:layout_centerHorizontal="true"/>
+	
+	<TextView 
+	    android:id="@+id/total"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/total"
+	    android:textSize="50dp"
+	    android:layout_below="@id/tip"/>
+	
+	<TextView
+	    android:id="@+id/totalAmt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/totalAmt"
+	    android:textSize="50dp"
+	    android:layout_toRightOf="@id/total"
+	    android:layout_below="@id/tipAmt"/>
+	
 </RelativeLayout>
